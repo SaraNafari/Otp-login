@@ -1,0 +1,90 @@
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+   /* اینپوت شماره تماس */
+
+  .input-box input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  .btn {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #f4b800;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn.disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* اینپوت otp */
+  .otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .otp-container input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* تایمر */
+  .timer {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* responsive */
+  @media(max-width: 480px) {
+    .container {
+      margin: 20px;
+      padding: 15px;
+    }
+    .otp-container input {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  }
+  
